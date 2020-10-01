@@ -20,10 +20,10 @@ function countdown() {
 
     // console.log(days, hours, minutes, seconds);
 
-    dyasEl.innerHTML = days;
-    hoursEl.innerHTML = formatTime(hours);
-    minsEl.innerHTML = formatTime(minutes);
-    secondsEl.innerHTML = formatTime(seconds);
+    dyasEl.innerText = days;
+    hoursEl.innerText = formatTime(hours);
+    minsEl.innerText = formatTime(minutes);
+    secondsEl.innerText = formatTime(seconds);
 
 }
 
